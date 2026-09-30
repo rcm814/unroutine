@@ -1,0 +1,45 @@
+export const poses = [
+  { id:'breathing-reset', name:'Constructive Rest', focuses:['recovery','t-spine'], category:'warmup', difficulty:1, duration:60, lotus:0, cue:'Let the ribs soften and breathe slowly through the nose.' },
+  { id:'childs-pose', name:"Child's Pose", focuses:['recovery','t-spine','hips'], category:'warmup', difficulty:1, duration:60, lotus:1, cue:'Breathe into your back ribs and let the hips get heavy.' },
+  { id:'cat-cow', name:'Cat-Cow', focuses:['t-spine','recovery'], category:'warmup', difficulty:1, duration:60, lotus:0, cue:'Move one vertebra at a time and let the breath lead.' },
+  { id:'thread-needle', name:'Thread the Needle', focuses:['t-spine','recovery'], category:'mobility', difficulty:1, duration:60, lotus:0, cue:'Rotate through the upper back without forcing the shoulder.' },
+  { id:'puppy-pose', name:'Puppy Pose', focuses:['t-spine','recovery'], category:'mobility', difficulty:1, duration:60, lotus:0, cue:'Keep the hips over the knees and lengthen through the armpits.' },
+  { id:'down-dog', name:'Downward Dog', focuses:['hips','recovery'], category:'warmup', difficulty:1, duration:60, lotus:1, cue:'Bend the knees enough to keep the spine long.' },
+  { id:'low-lunge', name:'Low Lunge', focuses:['hips','full-lotus'], category:'mobility', difficulty:1, duration:75, lotus:2, cue:'Square the hips and gently lengthen the back leg.' },
+  { id:'lizard', name:'Lizard Lunge', focuses:['hips','full-lotus'], category:'deep', difficulty:2, duration:75, lotus:3, cue:'Stay lifted or lower to forearms only if the hip stays comfortable.' },
+  { id:'half-split', name:'Half Split', focuses:['hips','recovery'], category:'mobility', difficulty:1, duration:60, lotus:1, cue:'Hinge from the hips instead of rounding the back.' },
+  { id:'pigeon-prep', name:'Pigeon Prep', focuses:['hips','full-lotus'], category:'deep', difficulty:2, duration:90, lotus:4, cue:'Support the front hip if needed and keep the knee pain-free.' },
+  { id:'figure-four', name:'Reclined Figure Four', focuses:['hips','full-lotus','recovery'], category:'deep', difficulty:1, duration:75, lotus:3, cue:'Flex the crossed foot and draw the legs in gradually.' },
+  { id:'90-90', name:'90/90 Hip Switches', focuses:['hips','full-lotus'], category:'mobility', difficulty:2, duration:75, lotus:5, cue:'Move slowly between sides and stay tall through the torso.' },
+  { id:'90-90-fold', name:'90/90 Forward Fold', focuses:['hips','full-lotus'], category:'deep', difficulty:2, duration:90, lotus:5, cue:'Fold from the hip over the front shin without forcing depth.' },
+  { id:'frog', name:'Frog Prep', focuses:['hips','full-lotus'], category:'deep', difficulty:3, duration:75, lotus:3, cue:'Keep the knees comfortable and use a smaller range when needed.' },
+  { id:'butterfly', name:'Butterfly Fold', focuses:['hips','full-lotus','recovery'], category:'deep', difficulty:1, duration:90, lotus:4, cue:'Let the knees fall naturally and lengthen before folding.' },
+  { id:'fire-log', name:'Fire Log Prep', focuses:['hips','full-lotus'], category:'deep', difficulty:3, duration:75, lotus:5, cue:'Use blocks under the knees and stop if you feel knee strain.' },
+  { id:'half-lotus-prep', name:'Half Lotus Prep', focuses:['full-lotus','hips'], category:'peak', difficulty:3, duration:75, lotus:5, cue:'Rotate from the hip; never pull the foot into position from the knee.' },
+  { id:'shin-box', name:'Shin Box Get-Up', focuses:['hips','full-lotus'], category:'strength', difficulty:3, duration:60, lotus:4, cue:'Drive through the hips and keep the movement controlled.' },
+  { id:'cossack', name:'Cossack Squat', focuses:['hips'], category:'strength', difficulty:3, duration:60, lotus:2, cue:'Sit into one hip while keeping the opposite leg long.' },
+  { id:'worlds-greatest', name:"World's Greatest Stretch", focuses:['hips','t-spine'], category:'mobility', difficulty:2, duration:75, lotus:2, cue:'Reach and rotate through the upper back while the hips stay steady.' },
+  { id:'open-book', name:'Open Book', focuses:['t-spine','recovery'], category:'mobility', difficulty:1, duration:60, lotus:0, cue:'Let your eyes follow the top hand and keep the knees stacked.' },
+  { id:'side-lying-windmill', name:'Side-Lying Windmill', focuses:['t-spine'], category:'mobility', difficulty:1, duration:60, lotus:0, cue:'Trace a slow circle with the top arm while breathing smoothly.' },
+  { id:'sphinx', name:'Sphinx Pose', focuses:['t-spine','recovery'], category:'mobility', difficulty:1, duration:60, lotus:0, cue:'Press lightly through the forearms and lengthen the chest forward.' },
+  { id:'cobra-wave', name:'Cobra Waves', focuses:['t-spine'], category:'strength', difficulty:2, duration:45, lotus:0, cue:'Use the back muscles and keep the movement small and smooth.' },
+  { id:'thoracic-rotation', name:'Quadruped T-Spine Rotation', focuses:['t-spine'], category:'mobility', difficulty:1, duration:60, lotus:0, cue:'Keep the hips quiet while the chest rotates.' },
+  { id:'happy-baby', name:'Happy Baby', focuses:['hips','recovery','full-lotus'], category:'cooldown', difficulty:1, duration:75, lotus:2, cue:'Keep the low back heavy and hold behind the thighs if needed.' },
+  { id:'supine-twist', name:'Supine Twist', focuses:['t-spine','recovery'], category:'cooldown', difficulty:1, duration:75, lotus:0, cue:'Let the twist come from the breath rather than pushing the knee down.' },
+  { id:'forward-fold', name:'Seated Forward Fold', focuses:['hips','recovery'], category:'cooldown', difficulty:1, duration:75, lotus:1, cue:'Soften on each exhale without forcing the hamstrings.' },
+  { id:'legs-up-wall', name:'Legs Up the Wall', focuses:['recovery'], category:'cooldown', difficulty:1, duration:120, lotus:0, cue:'Let the legs relax and make the exhale slightly longer.' },
+  { id:'savasana', name:'Savasana', focuses:['recovery'], category:'cooldown', difficulty:1, duration:120, lotus:0, cue:'Release effort and let the floor carry your weight.' },
+]
+
+export const focusOptions = [
+  { id:'hips', label:'Hips', description:'Rotation, flexors and adductors' },
+  { id:'t-spine', label:'T-Spine', description:'Upper-back rotation and extension' },
+  { id:'full-lotus', label:'Full Lotus', description:'Progressive hip rotation without forcing the knees' },
+  { id:'recovery', label:'Recovery', description:'Low-intensity mobility and downshift work' },
+]
+
+export const intensityOptions = [
+  { id:'easy', label:'Easy', maxDifficulty:1 },
+  { id:'moderate', label:'Moderate', maxDifficulty:2 },
+  { id:'hard', label:'Hard', maxDifficulty:3 },
+]
